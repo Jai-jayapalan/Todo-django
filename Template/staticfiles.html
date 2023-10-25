@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static files</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h2>Static file Django (files) </h2>
+    <div class="container">
+        <img src="{% static 'image/ironman.jpg' %}">
+        <img src="{% static 'image/jack.jpg' %}">
+    </div>
+</body>
+</html>
